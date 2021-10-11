@@ -64,11 +64,11 @@ public class Module2 {
             }
             case "/" -> {
                 c = a / b;
-                System.out.println(a + " / " + b + " = " + c);
+                System.out.printf("%d / %d = %d",a,b,c);
             }
             case "*" -> {
                 c = a * b;
-                System.out.println(a + " * " + b + " = " + c);
+                System.out.printf("%d * %d = %d",a,b,c);
             }
             case "<>" -> {
                 if (a > b){
